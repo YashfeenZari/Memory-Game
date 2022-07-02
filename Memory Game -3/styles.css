@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #dadea8;
+  background-image: url('https://media.istockphoto.com/photos/abstract-hexagon-background-picture-id924793826?b=1&k=20&m=924793826&s=170667a&w=0&h=HlLuNqq7biIOklJwYQ6eefNMPrg5laaAcsvZf22y79M=');
+  /* background-image: url('https://images3.alphacoders.com/360/36037.jpg'); */
+  background-image: url('https://cdn.wallpapersafari.com/81/51/kKU4PG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #ffffff;
+  text-shadow: brown 3px 3px 4px ,white 3px 5px 3px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(75, 74, 74);
+  border-radius: 20%;
+}
+
+.game-over {
+  /* background-color: red; */
+  background-image: url('https://i.pinimg.com/originals/10/d7/20/10d720165f0f6340e7b960f498c4f55f.jpg');
+  background-image: url('https://images3.alphacoders.com/360/36037.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  /* background-image: url('https://images-na.ssl-images-amazon.com/images/I/61TUcog7RPL.png'); */
+  background-image: url('https://c1.wallpaperflare.com/preview/345/815/646/light-orange-bright-art.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.green {
+  background-color: green;
+  background-image: url('https://thefunquotes.com/wp-content/uploads/2020/09/images-1.jpg');
+  background-image: url('https://cdn.wallpapersafari.com/24/29/KjIa5G.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue {
+  background-color: blue;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/606/236/974/thread-glow-white-blue-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url('https://cdn.wallpapersafari.com/1/69/7Vg2t5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(254, 254, 254);
+  background-color: grey;
+}
